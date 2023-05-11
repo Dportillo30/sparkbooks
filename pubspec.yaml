@@ -1,0 +1,30 @@
+name: sparkbooks
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+
+dependencies:
+  bloc_provider: ^1.0.0
+  equatable: ^2.0.5
+  firebase_auth: ^4.5.0
+  firebase_core: ^2.11.0
+  flow_builder: ^0.0.9
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.4.0
+  formz: ^0.6.0
+  smooth_page_indicator: ^1.1.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/light_logo.png
+    - assets/img/dark_logo.png
